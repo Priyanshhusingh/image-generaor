@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/crate-post" element={<CratePost />} />
+          <Route path="/create-post" element={<CratePost />} />
         </Routes>
       </div>
     </div>

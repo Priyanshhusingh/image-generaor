@@ -10,23 +10,23 @@ const Container = styled.div`
 
 const Label = styled.label`
   font-size: 12px;
-  color: ${({ theme }) => theme.text_secondary};
+  color: #b1b2b3;
   padding: 0px 4px;
   text-transform: uppercase;
 `;
 
 const OutlinedInput = styled.div`
   border-radius: 8px;
-  border: 0.5px solid ${({ theme }) => theme.text_secondary + 70};
+  border: 0.5px solid #b1b2b3;
   background-color: transparent;
-  color: ${({ theme }) => theme.text_secondary};
+  color: #b1b2b3;
   outline: none;
   padding: 14px;
   display: flex;
   align-items: center;
   gap: 12px;
   &:focus-within {
-    border-color: ${({ theme }) => theme.primary};
+    border-color: #007AFF;
   }
 `;
 
@@ -36,7 +36,7 @@ const Input = styled.input`
   outline: none;
   border: none;
   background-color: transparent;
-  color: ${({ theme }) => theme.text_secondary};
+  color: #b1b2b3;
   &:focus {
     outline: none;
   }
